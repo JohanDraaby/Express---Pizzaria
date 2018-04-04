@@ -4,44 +4,45 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            text-align: center;
-        }
-        .auto-style2 {
-            height: 23px;
-        }
-    </style>
+    <title>Express-Pizza - Product Searcher</title>
+    <link rel="stylesheet" type="text/css" href="ProductSearcher.css">
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-        <p class="auto-style1">
-            Product searcher</p>
-        <p class="auto-style1">
-            <input id="SearchInput" type="text" value="bacon" /><input id="SearchButton" type="button" value="Search" /></p>
-        <p id="Label1" class="auto-style1">
-            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-            <table style="width:100%;">
-                <tr>
-                    <td class="auto-style2"></td>
-                    <td class="auto-style2"></td>
-                    <td class="auto-style2"></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-            </table>
-        </p>
-    </form>
+    <div>
+        <form id="form1" runat="server">
+            <p class="auto-style1">
+                Product searcher</p>
+            <div class="Search">
+            <p class="auto-style1">
+                <asp:TextBox ID="SearchInput" runat="server">Bacon</asp:TextBox>
+                <asp:Button ID="Search" runat="server" Text="Search" OnClick="Search_Click" />
+            </p>
+            </div>
+            <div class="SortByShow">
+                <asp:Button ID="ShowAll" runat="server" OnClick="Button1_Click" Text="Show all" />
+                <asp:Label ID="Label2" runat="server" Text="Sort By:"></asp:Label>
+                <asp:DropDownList ID="SortByDropDown" runat="server">
+                    <asp:ListItem Value="ID">ID</asp:ListItem>
+                    <asp:ListItem Value="Name"></asp:ListItem>
+                    <asp:ListItem Value="Price"></asp:ListItem>
+                    <asp:ListItem Value="Varient"></asp:ListItem>
+                </asp:DropDownList>
+            </div>
+
+            <p id="Label1" class="auto-style1">
+                <asp:Label ID="ErrorMessage" runat="server" ForeColor="Red"></asp:Label>
+            </p>
+            <asp:Table runat="server" ID="ProductTable" CssClass="table" Width="100%">
+                <asp:TableHeaderRow>
+                    <asp:TableCell>ID</asp:TableCell>
+                    <asp:TableCell>Name</asp:TableCell>
+                    <asp:TableCell>Price</asp:TableCell>
+                    <asp:TableCell>Type</asp:TableCell>
+                </asp:TableHeaderRow>
+                <asp:TableRow>
+                </asp:TableRow>
+            </asp:Table>
+        </form>
+    </div>
 </body>
 </html>
