@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="ProductSearcher.css">
 </head>
 <body>
-    <div>
+    <div class="Content">
         <form id="form1" runat="server">
             <p class="auto-style1">
                 Product searcher</p>

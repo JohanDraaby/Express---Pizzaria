@@ -1,4 +1,18 @@
 ﻿body {
+    background-color: #686868;
+    background-image: url(Pictures/GreyStoneWall.jpg);
+}
+
+.Content{
+    color: #222;
+}
+
+.Content {
+    background-color: rgba(151, 151, 151, 0.9);
+    margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 5%;
+    padding: 1.5%;
+    border-radius: 15px;
 }
