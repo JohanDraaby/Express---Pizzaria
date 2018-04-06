@@ -145,6 +145,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="InspectProduct.aspx" />
     <Content Include="ProductAdministraion.aspx" />
     <Content Include="ProductSearcher.aspx" />
     <Content Include="ProductSearcher.css" />
@@ -202,6 +203,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="InspectProduct.aspx.cs">
+      <DependentUpon>InspectProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InspectProduct.aspx.designer.cs">
+      <DependentUpon>InspectProduct.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProductAdministraion.aspx.cs">
       <DependentUpon>ProductAdministraion.aspx</DependentUpon>

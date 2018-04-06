@@ -57,7 +57,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <footer id="Box">
-                <p>&copy; <%: DateTime.Now.Year %> - Express Pizza Ringsted -  <a href="tel:57675554">57 67 55 54</a></p>
+                <address><p>&copy; <%: DateTime.Now.Year %> - Express Pizza Ringsted -  <a class="bg-dark" href="tel:57675554">57 67 55 54</a></p></address>
             </footer>
         </div>
 

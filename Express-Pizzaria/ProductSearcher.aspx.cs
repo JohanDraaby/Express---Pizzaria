@@ -39,7 +39,7 @@ namespace Express_Pizzaria
                 for (int j = 0; j < dataTable.Columns.Count; j++)
                 {
                     TableCell tableCell = new TableCell();
-                    tableCell.Text = dataTable.Rows[i][j].ToString();
+                    tableCell.Text = /*"<a id=\"ProductLink\" href=\"/InspectProduct.aspx\">" + */dataTable.Rows[i][j].ToString()/* + "</a>"*/;
 
                     tableRow.Cells.Add(tableCell);
                 }
@@ -74,7 +74,6 @@ namespace Express_Pizzaria
             }
 
             this.FillTable(dataTable);
-            
         }
     }
 }

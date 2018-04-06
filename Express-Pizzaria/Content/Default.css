@@ -1,16 +1,28 @@
-﻿.carousel {
-    background: #2f4357;
-    margin-top: 20px;
+﻿h1{
+    text-align: center;
 }
 
-.carousel .item {
-    min-height: 280px;
-}
-
-.carousel .item img {
+.carousel {
+    width: 50%;
     margin: 0 auto;
+    height: 250px;
 }
 
-.bs-example {
-    margin: 20px;
+.Pictures{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Pictures img{
+    padding: 5%;
+}
+
+.carousel h3{
+    color: black;
+    text-align: center;
+}
+
+.carousel .item p {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
 }

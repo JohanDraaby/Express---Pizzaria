@@ -13,7 +13,48 @@
             </div>
             <div class="Search">
                 <p class="auto-style1">
-                    <asp:TextBox ID="SearchInput" runat="server">Bacon</asp:TextBox>
+                    <p>Ingredients</p><asp:DropDownList ID="SearchInput" runat="server">
+                        <asp:ListItem Value="Bacon">Bacon</asp:ListItem>
+                        <asp:ListItem Value="Cheese">Cheese</asp:ListItem>
+                        <asp:ListItem>Ham</asp:ListItem>
+                        <asp:ListItem>Tomatoe Sauce</asp:ListItem>
+                        <asp:ListItem>Pineapple</asp:ListItem>
+                        <asp:ListItem>Pepperoni</asp:ListItem>
+                        <asp:ListItem>Mushroom</asp:ListItem>
+                        <asp:ListItem>Garlic</asp:ListItem>
+                        <asp:ListItem>Tuna</asp:ListItem>
+                        <asp:ListItem>Prawns</asp:ListItem>
+                        <asp:ListItem>Clamps</asp:ListItem>
+                        <asp:ListItem>Gorgonzola</asp:ListItem>
+                        <asp:ListItem>Air Dried Ham</asp:ListItem>
+                        <asp:ListItem>Paprika</asp:ListItem>
+                        <asp:ListItem>Asparagus</asp:ListItem>
+                        <asp:ListItem>Onion</asp:ListItem>
+                        <asp:ListItem>Olives</asp:ListItem>
+                        <asp:ListItem>Meat Sauce</asp:ListItem>
+                        <asp:ListItem>Shrimp</asp:ListItem>
+                        <asp:ListItem>Eggs</asp:ListItem>
+                        <asp:ListItem>Chili</asp:ListItem>
+                        <asp:ListItem>Chicken</asp:ListItem>
+                        <asp:ListItem>Beef Fillet</asp:ListItem>
+                        <asp:ListItem>Salad</asp:ListItem>
+                        <asp:ListItem>Dressing</asp:ListItem>
+                        <asp:ListItem>Kebab</asp:ListItem>
+                        <asp:ListItem>Turkish Pepperoni</asp:ListItem>
+                        <asp:ListItem>Sucuk</asp:ListItem>
+                        <asp:ListItem>Peppers</asp:ListItem>
+                        <asp:ListItem>Meatballs</asp:ListItem>
+                        <asp:ListItem>Spaghetti</asp:ListItem>
+                        <asp:ListItem>Jalapenos</asp:ListItem>
+                        <asp:ListItem>Cream Fraiche</asp:ListItem>
+                        <asp:ListItem>Garlic oil</asp:ListItem>
+                        <asp:ListItem>Cocktail Sausages</asp:ListItem>
+                        <asp:ListItem>Tomato</asp:ListItem>
+                        <asp:ListItem>Cucumber</asp:ListItem>
+                        <asp:ListItem>Red Dressing</asp:ListItem>
+                        <asp:ListItem>Fish</asp:ListItem>
+                        <asp:ListItem>Beef</asp:ListItem>
+                    </asp:DropDownList>
                     <asp:Button ID="Search" runat="server" Text="Search" OnClick="Search_Click" />
                 </p>
             </div>
