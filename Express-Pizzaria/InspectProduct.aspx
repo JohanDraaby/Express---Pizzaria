@@ -1,6 +1,6 @@
-﻿<%@ Page Title="Inspect Product" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="InspectProduct.aspx.cs" Inherits="Express_Pizzaria.InspectProduct" %>
+﻿<%@ Page Title="Inspect Product" Language="C#" AutoEventWireup="true" CodeBehind="InspectProduct.aspx.cs" Inherits="Express_Pizzaria.InspectProduct" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content>
 
     <p>T</p>
 

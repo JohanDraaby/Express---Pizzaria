@@ -46,17 +46,18 @@
                 <div class="navbar-header">
                     <a runat="server" href="~/"><img src="/Pictures/Logo.gif" /></a><h3 class="HeadLine">Express Pizza Ringsted</h3>
                     <ul>
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/ProductSearcher.aspx">Product Searcher</a></li>
-                        <li><a runat="server" href="~/FindUs.aspx">Find Us</a></li>
+                        <li><a runat="server" href="~/">Home<img class="SmallIcon" src="/Pictures/Home.png" /></a></li>
+                        <li><a runat="server" href="~/ProductSearcher.aspx">Product Searcher<img class="SmallIcon" src="/Pictures/MagnifyingGlass.png" /></a></li>
+                        <li><a runat="server" href="~/FindUs.aspx">Find Us<img class="SmallIcon" src="/Pictures/MapMarker.png" /></a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        <div class="Space"></div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <footer id="Box">
+            <footer class="Box">
                 <address><p>&copy; <%: DateTime.Now.Year %> - Express Pizza Ringsted -  <a class="bg-dark" href="tel:57675554">57 67 55 54</a></p></address>
             </footer>
         </div>

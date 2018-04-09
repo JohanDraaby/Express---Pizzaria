@@ -134,5 +134,10 @@ namespace Express_Pizzaria
                                                 inner join Size on Size.ID = Varient.SizeID
                                                 where Ingredient.Name='" + searchTerm + "' order by " + orderByCommand);
         }
+
+        public DataTable SelectAllIngredients()
+        {
+            return ReturnSqlQuerie("Select Name from Ingredient");
+        }
     }
 }

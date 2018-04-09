@@ -1,4 +1,5 @@
-﻿<%@ Page Title="Product Searcher" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductSearcher.aspx.cs" Inherits="Express_Pizzaria.ProductSearcher" %>
+﻿
+<%@ Page Title="Product Searcher" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductSearcher.aspx.cs" Inherits="Express_Pizzaria.ProductSearcher" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -6,7 +7,7 @@
 
     <!DOCTYPE html>
 
-    <div class="Content" id="Box">
+    <div class="Content Box">
         <div class="TitleSearchGrid">
             <div class="Title">
                 <h1 id="bg-secondary">Product searcher</h1>
@@ -84,6 +85,5 @@
                 </asp:TableRow>
             </asp:Table>
     </div>
-
 
 </asp:Content>
